@@ -52,7 +52,7 @@ function generateTable() {
   }
 
   const button = document.createElement("button");
-  button.innerHTML = "Calculate Sum";
+  button.innerHTML = "Calculate Arithmetic Mean";
   button.classList = "btn";
   button.addEventListener("click", calculateArithmeticMean);
 
